@@ -1,0 +1,14 @@
+.Qamount{
+ display: block;
+ margin: 0 auto;
+ width: 60%;
+ border-top-style: none;
+ border-left-style: none;
+ border-right-style: none;
+}
+.Qamount:focus{
+    /* border-top-style: none;
+    border-left-style: none;
+    border-right-style: none    */
+    outline: none;
+}
