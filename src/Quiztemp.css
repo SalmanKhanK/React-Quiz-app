@@ -1,0 +1,78 @@
+.form{
+     display: flex;
+     flex-direction: column;
+     margin-top: 100px;
+}
+.form label {
+     margin: 5px 10px 5px 0;
+   }
+   .form input {
+     vertical-align: middle;
+     margin: 5px 10px 5px 0;
+     padding: 10px;
+     background-color: #fff;
+     border: 1px solid #ddd;
+   }
+   .form input[type="submit"] {
+     padding: 10px 20px;
+     cursor: pointer;
+     background-color: dodgerblue;
+     border: 1px solid #ddd;
+     color: white;
+     width: 20%;
+   }
+   .form input[type="submit"]:hover {
+     background-color: royalblue;
+   }
+   @media (max-width: 700px) {
+     .form input[type="submit"]{
+       margin: 10px 0;
+       width: 100%;
+     }
+   
+     .form {
+       flex-direction: column;
+       align-items: stretch;
+     }
+   }
+   .form .radioContainer{
+        font-size: 20px;
+       
+        cursor: pointer;
+        
+   }
+  .form .checkmark{
+     border-radius: 20%;
+     background: aqua;
+   }
+ 
+   .form .questionText{
+        background-color:#DCDCDC;
+        width: 50%;
+        font-size: 20px;
+   }
+  
+   @media (max-width: 700px){
+    .form .questionText{
+      width: 100%;
+ }
+   }
+   .form .amountDifficulty{
+     display: flex;
+     justify-content: space-between;
+     width: 50%;
+     margin-bottom: 10px;
+   }
+   @media (max-width: 700px){
+    .form .amountDifficulty{
+     width: 100%;
+    }
+   }
+   .form .category{
+     font-size: 15px;
+   }
+  .form .line{
+    max-width: 200px;
+    margin: 0px;
+   }
+ 

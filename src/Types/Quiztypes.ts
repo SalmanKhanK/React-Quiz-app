@@ -23,5 +23,7 @@ export type Marks={
     totalMarks:number,
     amount:number,
     difficulty:string,
-    category:string
+    category:string,
+    colltedOPtion:string[]
+    Quiz:getQuestion[],
 }
